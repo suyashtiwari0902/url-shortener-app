@@ -50,7 +50,7 @@ export const handleForgotPassword = async (email: string): Promise<boolean> => {
     //send email with reset link to user
     console.log(
       "Reset link",
-      `http://localhost:3000/reset-password?resetToken=${resetToken}`
+      `https://url-shortener-frontend-ufg7.onrender.com/reset-password?resetToken=${resetToken}`
     );
     return true;
   } catch (error) {
